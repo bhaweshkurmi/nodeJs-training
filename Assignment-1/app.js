@@ -1,6 +1,6 @@
 const http = require('http')
 
-http.createServer((req, res) =>  {
+http.createServer((req, res) =>  { 
     const url = req.url;
     if(url === '/'){
         console.log("Inide default block")
